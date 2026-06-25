@@ -44,82 +44,14 @@ nav a:hover{
 
 .hero{
     min-height:100vh;
-
-    background:
-    linear-gradient(
-        rgba(0,0,0,0.65),
-        rgba(0,0,0,0.65)
-    ),
-    url("hero.jpg");
-
-    background-size:cover;
-    background-position:center center;
-    background-repeat:no-repeat;
+    background-image:url("hero.jpg") !important;
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
 
     display:flex;
     align-items:center;
     padding-left:80px;
-}
-
-.hero-content{
-    max-width:650px;
-}
-
-.hero-content h3{
-    color:#ff6b35;
-    font-size:30px;
-    margin-bottom:15px;
-    font-style:italic;
-}
-
-.hero-content h1{
-    color:white;
-    font-size:90px;
-    line-height:1;
-    margin-bottom:20px;
-}
-
-.hero-content span{
-    color:#ff6b35;
-}
-
-.tagline{
-    color:white;
-    font-size:30px;
-    margin-bottom:20px;
-}
-
-.description{
-    color:#ddd;
-    font-size:22px;
-    line-height:1.6;
-    margin-bottom:30px;
-}
-
-@media(max-width:768px){
-
-    .hero{
-        padding:20px;
-        justify-content:center;
-        text-align:center;
-        min-height:100vh;
-    }
-
-    .hero-content h1{
-        font-size:50px;
-    }
-
-    .hero-content h3{
-        font-size:24px;
-    }
-
-    .tagline{
-        font-size:20px;
-    }
-
-    .description{
-        font-size:16px;
-    }
 }
 .buttons{
     display:flex;
