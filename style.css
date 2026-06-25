@@ -43,15 +43,18 @@ nav a:hover{
 /* HERO SECTION */
 
 .hero{
-    height:100vh;
+    min-height:100vh;
+
     background:
     linear-gradient(
-    rgba(0,0,0,0.65),
-    rgba(0,0,0,0.65)),
-    url("images/hero.jpg");
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.65)
+    ),
+    url("hero.jpg");
 
     background-size:cover;
-    background-position:center;
+    background-position:center center;
+    background-repeat:no-repeat;
 
     display:flex;
     align-items:center;
@@ -93,6 +96,31 @@ nav a:hover{
     margin-bottom:30px;
 }
 
+@media(max-width:768px){
+
+    .hero{
+        padding:20px;
+        justify-content:center;
+        text-align:center;
+        min-height:100vh;
+    }
+
+    .hero-content h1{
+        font-size:50px;
+    }
+
+    .hero-content h3{
+        font-size:24px;
+    }
+
+    .tagline{
+        font-size:20px;
+    }
+
+    .description{
+        font-size:16px;
+    }
+}
 .buttons{
     display:flex;
     gap:20px;
