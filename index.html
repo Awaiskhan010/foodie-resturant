@@ -1,214 +1,170 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodie Restaurant</title>
 
-```
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
-```
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
     <h2 class="logo">FOODIE</h2>
 
-```
-<nav>
-    <a href="#">Home</a>
-    <a href="#menu">Menu</a>
-    <a href="#chef">Chef</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#chef">Chef</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-<div class="hamburger">☰</div>
-```
-
+    <div class="hamburger">☰</div>
 </header>
 
 <section class="hero">
     <div class="hero-content">
+        <h3>Welcome to Foodie</h3>
 
-```
-    <h3>Welcome to Foodie</h3>
+        <h1>
+            DELICIOUS<br>
+            <span>FOOD</span>
+        </h1>
 
-    <h1>
-        DELICIOUS<br>
-        <span>FOOD</span>
-    </h1>
+        <p class="tagline">
+            Fresh • Healthy • Fast Delivery
+        </p>
 
-    <p class="tagline">
-        Fresh • Healthy • Fast Delivery
-    </p>
+        <p class="description">
+            Experience the best taste with our exclusive recipes made with love.
+        </p>
 
-    <p class="description">
-        Experience the best taste with our exclusive recipes made with love.
-    </p>
-
-    <div class="buttons">
-        <button class="order-btn">ORDER NOW</button>
-        <button class="menu-btn">VIEW MENU</button>
+        <div class="buttons">
+            <button class="order-btn">ORDER NOW</button>
+            <button class="menu-btn">VIEW MENU</button>
+        </div>
     </div>
-
-</div>
-```
-
 </section>
 
 <section class="menu hidden" id="menu">
+    <h2>Our Popular Dishes</h2>
 
-```
-<h2>Our Popular Dishes</h2>
+    <div class="cards">
 
-<div class="cards">
+        <div class="card">
+            <img src="pizza.jpg" alt="Pizza">
+            <h3>🍕 Pizza</h3>
+            <p>Fresh Italian pizza with mozzarella cheese.</p>
+            <button>Order</button>
+        </div>
 
-    <div class="card">
-        <img src="images/pizza.jpg" alt="Pizza">
-        <h3>🍕 Pizza</h3>
-        <p>Fresh Italian pizza with mozzarella cheese.</p>
-        <button>Order</button>
+        <div class="card">
+            <img src="burger.jpg" alt="Burger">
+            <h3>🍔 Burger</h3>
+            <p>Double beef burger with crispy fries.</p>
+            <button>Order</button>
+        </div>
+
+        <div class="card">
+            <img src="steak.jpg" alt="Steak">
+            <p>Premium grilled steak with vegetables.</p>
+            <button>Order</button>
+        </div>
+
     </div>
-
-    <div class="card">
-        <img src="images/burger.jpg" alt="Burger">
-        <h3>🍔 Burger</h3>
-        <p>Double beef burger with crispy fries.</p>
-        <button>Order</button>
-    </div>
-
-    <div class="card">
-        <img src="images/steak.jpg" alt="Steak">
-        <h3>🥩 Steak</h3>
-        <p>Premium grilled steak with vegetables.</p>
-        <button>Order</button>
-    </div>
-
-</div>
-```
-
 </section>
 
 <section class="chef hidden" id="chef">
+    <h2>Meet Our Chef</h2>
 
-```
-<h2>Meet Our Chef</h2>
+    <img src="chef.jpg" alt="Chef">
 
-<img src="images/chef.jpg" alt="Chef">
-
-<p>
-    Our chef has over 15 years of experience preparing delicious meals
-    using fresh ingredients and authentic recipes.
-</p>
-```
-
+    <p>
+        Our chef has over 15 years of experience preparing delicious meals
+        using fresh ingredients and authentic recipes.
+    </p>
 </section>
 
 <section class="reviews hidden">
+    <h2>What Our Customers Say</h2>
 
-```
-<h2>What Our Customers Say</h2>
+    <div class="review-cards">
 
-<div class="review-cards">
+        <div class="review">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>"Best burger in town!"</p>
+            <h4>- Ahmed</h4>
+        </div>
 
-    <div class="review">
-        <h3>⭐⭐⭐⭐⭐</h3>
-        <p>"Best burger in town!"</p>
-        <h4>- Ahmed</h4>
+        <div class="review">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>"Excellent service and amazing taste."</p>
+            <h4>- Sarah</h4>
+        </div>
+
+        <div class="review">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>"The pizza was incredible."</p>
+            <h4>- Ali</h4>
+        </div>
+
     </div>
-
-    <div class="review">
-        <h3>⭐⭐⭐⭐⭐</h3>
-        <p>"Excellent service and amazing taste."</p>
-        <h4>- Sarah</h4>
-    </div>
-
-    <div class="review">
-        <h3>⭐⭐⭐⭐⭐</h3>
-        <p>"The pizza was incredible."</p>
-        <h4>- Ali</h4>
-    </div>
-
-</div>
-```
-
 </section>
 
 <section class="gallery hidden" id="gallery">
+    <h2>Food Gallery</h2>
 
-```
-<h2>Food Gallery</h2>
-
-<div class="gallery-container">
-    <img src="images/gallery1.jpg" alt="Food">
-    <img src="images/gallery2.jpg" alt="Food">
-    <img src="images/gallery3.jpg" alt="Food">
-    <img src="images/gallery4.jpg" alt="Food">
-</div>
-```
-
+    <div class="gallery-container">
+        <img src="gallery1.jpg" alt="Food">
+        <img src="gallery2.jpg" alt="Food">
+        <img src="gallery3.jpg" alt="Food">
+        <img src="gallery4.jpg" alt="Food">
+    </div>
 </section>
 
 <section class="contact hidden" id="contact">
+    <h2>Contact Us</h2>
 
-```
-<h2>Contact Us</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
 
-<form class="contact-form">
+        <input type="email" placeholder="Your Email" required>
 
-    <input type="text" placeholder="Your Name" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
 
-    <input type="email" placeholder="Your Email" required>
-
-    <textarea placeholder="Your Message" rows="5" required></textarea>
-
-    <button type="submit">Send Message</button>
-
-</form>
-```
-
+        <button type="submit">Send Message</button>
+    </form>
 </section>
 
 <section class="map">
+    <h2>Find Us</h2>
 
-```
-<h2>Find Us</h2>
-
-<iframe
-    src="https://www.google.com/maps?q=Peshawar,Pakistan&output=embed"
-    width="100%"
-    height="450"
-    style="border:0;"
-    loading="lazy">
-</iframe>
-```
-
+    <iframe
+        src="https://www.google.com/maps?q=Peshawar,Pakistan&output=embed"
+        width="100%"
+        height="450"
+        style="border:0;"
+        loading="lazy">
+    </iframe>
 </section>
 
 <footer>
+    <h3>Foodie Restaurant</h3>
 
-```
-<h3>Foodie Restaurant</h3>
+    <p>Fresh • Healthy • Delicious</p>
 
-<p>Fresh • Healthy • Delicious</p>
+    <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+    </div>
 
-<div class="social-links">
-    <a href="#">Facebook</a>
-    <a href="#">Instagram</a>
-    <a href="#">YouTube</a>
-</div>
-
-<p>© 2026 Foodie Restaurant | All Rights Reserved</p>
-```
-
+    <p>© 2026 Foodie Restaurant | All Rights Reserved</p>
 </footer>
 
 <script src="script.js"></script>
